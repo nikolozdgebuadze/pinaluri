@@ -1,0 +1,257 @@
+body {
+    padding: 0;
+    margin: 0;
+    
+}
+
+* {
+    font-family: 'Roboto';
+}
+
+.site {
+    width: 100%;
+    background-color: #5F6472;
+    padding: 28px 40px;
+    color: #979797;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.site > header {
+    width: 100%;
+}
+
+.site > section {
+    width: 100%;
+    display: flex;
+    gap: 70px;
+    height: 1200px;
+}
+
+.site > section > aside {
+    width: 269px;
+    height: 100%;
+}
+
+.site > section > aside > h4 {
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 38px;
+    letter-spacing: 2px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.site > section > aside > ul {
+    padding: 0;
+    margin: 0;
+    width: 269px;
+    overflow-y: auto;
+    height: 800px;
+}
+
+.site > section > aside > ul > li {
+    list-style: none;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 4px;
+    user-select: none;
+}
+
+.site > section > aside > ul > li.active {
+    background: linear-gradient(90deg, rgba(45, 48, 56, 0) 22.92%, #2D3038 100%);
+}
+
+.site > section > aside > ul > li:first-child a {
+    color: white;
+}
+
+.site > section > aside > ul > li > a {
+    text-decoration: none;
+    color: #979797;
+    line-height: 30px;
+    border-radius: 10px;
+}
+
+.site > section > main {
+    width: 100%;
+    background: linear-gradient(124.01deg, #2D3038 0%, rgba(45, 48, 56, 0) 100%);
+    padding: 29px 51px;
+    border-radius: 30px;
+}
+
+.site > section > main > h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 74px;
+    margin: 0;
+    color: white;
+}
+
+.site > section > main > h3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.site > section > main > form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.site > section > main > form > input {
+    width: 320px;
+    padding: 13px 40px 13px 20px;
+}
+
+.site > section > main > h2 {
+    font-weight: 100;
+}
+
+
+.site > section > main > h4 {
+    color: white;
+    margin: 0;
+    font-size: 45px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 375px){
+body {
+    padding: 0;
+    margin: 0;
+    
+}
+
+* {
+    font-family: 'Roboto';
+}
+
+.site {
+    width: 50%;
+    background-color: #5F6472;
+    padding: 14px 20px;
+    color: #979797;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.site > header {
+    width: 50%;
+}
+
+.site > section {
+    width: 50%;
+    display: flex;
+    gap: 35px;
+    height: 600px;
+}
+
+.site > section > aside {
+    width: 183px;
+    height: 100%;
+}
+
+.site > section > aside > h4 {
+    font-weight: 50;
+    font-size: 10px;
+    line-height: 19px;
+    letter-spacing: 1px;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.site > section > aside > ul {
+    padding: 0;
+    margin: 0;
+    width: 134px;
+    overflow-y: auto;
+    height: 400px;
+}
+
+.site > section > aside > ul > li {
+    list-style: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 50%;
+    margin-bottom: 2px;
+    user-select: none;
+}
+
+.site > section > aside > ul > li.active {
+    background: linear-gradient(90deg, rgba(45, 48, 56, 0) 22.92%, #2D3038 100%);
+}
+
+.site > section > aside > ul > li:first-child a {
+    color: white;
+}
+
+.site > section > aside > ul > li > a {
+    text-decoration: none;
+    color: #979797;
+    line-height: 15px;
+    border-radius: 5px;
+}
+
+.site > section > main {
+    width: 50%;
+    background: linear-gradient(124.01deg, #2D3038 0%, rgba(45, 48, 56, 0) 100%);
+    padding: 14px 51px;
+    border-radius: 15px;
+}
+
+.site > section > main > h1 {
+    font-style: normal;
+    font-weight: 200;
+    font-size: 32px;
+    line-height: 37px;
+    margin: 0;
+    color: white;
+}
+
+.site > section > main > h3 {
+    font-style: normal;
+    font-weight: 200;
+    font-size: 8px;
+    line-height: 12px;
+}
+
+.site > section > main > form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.site > section > main > form > input {
+    width: 320px;
+    padding: 6px 20px 6px 10px;
+}
+
+.site > section > main > h2 {
+    font-weight: 50;
+}
+
+
+.site > section > main > h4 {
+    color: white;
+    margin: 0;
+    font-size: 22px;
+}
+}
